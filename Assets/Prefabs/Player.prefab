@@ -106,6 +106,7 @@ MonoBehaviour:
     m_Bits: 256
   _groundCheckRadius: 0.1
   _oxygenLossInterval: 1
+  _oxygenAmountOnStart: 10
 --- !u!50 &548239976091199304
 Rigidbody2D:
   serializedVersion: 4

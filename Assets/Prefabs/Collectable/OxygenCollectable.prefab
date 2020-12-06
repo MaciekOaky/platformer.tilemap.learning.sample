@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1139519353619348769}
   - component: {fileID: 8240572774455481746}
   - component: {fileID: 3163415100189476333}
+  - component: {fileID: 1447217326}
   m_Layer: 12
   m_Name: OxygenCollectable
   m_TagString: Untagged
@@ -113,13 +114,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 0
-  _size: 0
-  _smallSprites:
-  - {fileID: 3682244517289746891, guid: 1b390c6860f01a24980d8611978500bb, type: 3}
-  - {fileID: 1224605880914147462, guid: 1b390c6860f01a24980d8611978500bb, type: 3}
-  _normalSprites:
-  - {fileID: -6213826604019505169, guid: 1b390c6860f01a24980d8611978500bb, type: 3}
-  - {fileID: 4755356392845496490, guid: 1b390c6860f01a24980d8611978500bb, type: 3}
-  _smallAmount: 1
-  _normalAmount: 5
-  _animationSpeed: 0.5
+  _amount: 3
+--- !u!95 &1447217326
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8086967447799895932}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0bf07599bf58c4b4c88e50157461d891, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

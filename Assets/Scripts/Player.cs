@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask _groundMask;
     [SerializeField] [Range(0f, 1f)] private float _groundCheckRadius;
     [SerializeField] private float _oxygenLossInterval;
+    [SerializeField] private int _oxygenAmountOnStart;
 
     // Input varaiables
     private float _xInput, _yInput;
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        UpdateResource(_oxygenAmountOnStart, Collectable.CollectableType.OXYGEN);
         StartCoroutine(ControlOxygen());
     }
 
